@@ -10,8 +10,8 @@ def test_soma():
 
 
 def test_subtracao():
-    a = 1
-    b = 2
+    a = 2
+    b = 1
     res = 1
 
     assert subtracao(a,b) == res
@@ -28,6 +28,6 @@ def test_multiplicacao():
 def test_divisao():
     a = 6
     b = 2
-    res = 3
+    res = 3.0
 
     assert divisao(a,b) == res

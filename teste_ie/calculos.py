@@ -44,7 +44,7 @@ def divisao():
         conforme o exemplo:
 
         >>> divisao(6,2)
-        3
+        3.0
         
     """
     pass
